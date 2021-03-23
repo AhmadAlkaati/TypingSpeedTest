@@ -231,8 +231,8 @@ main .container .note-color {
 }
 
 main .container .social {
-  position: absolute;
-  bottom: 1rem;
+  position: relative;
+  top: 6rem;
   color: #f0c38c;
   display: flex;
   justify-content: center;
