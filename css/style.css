@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Chivo', sans-serif;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+input {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+}
+
+main .container {
+  background: #2a2b2c;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  color: aliceblue;
+}
+
+main .container .mode {
+  border-radius: 10px;
+  height: 20px;
+  width: 50px;
+  background: #5b5b5c;
+  position: absolute;
+  right: 1rem;
+  top: 2rem;
+}
+
+main .container .mode button {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #eeb876;
+  position: absolute;
+  right: 0;
+}
+
+main .container .mode .change {
+  left: 0;
+  transition: left 1s linear;
+  background-color: #2d4ca7;
+}
+
+main .container .mode.background {
+  background: white;
+}
+
+main .container header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+  height: 50px;
+}
+
+main .container header h1 {
+  font-size: 30px;
+  color: #f0c38c;
+  letter-spacing: 5px;
+}
+
+main .container header h2 {
+  font-size: 20px;
+}
+
+main .container header .header-color {
+  color: #2d4ca7;
+}
+
+main .container .timer {
+  margin-bottom: 1rem;
+  color: #f0c38c;
+}
+
+main .container .timer span {
+  font-size: 30px;
+}
+
+main .container .timer .timerSpan-color {
+  color: #2d4ca7;
+}
+
+main .container .timer progress {
+  border-radius: 10px;
+}
+
+main .container .quotes-container {
+  margin: 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+main .container .quotes-container .quotes p {
+  user-select: none;
+}
+
+main .container .quotes-container .quotes-color {
+  color: floralwhite;
+}
+
+main .container .quotes-container * {
+  margin: 0.3rem 0;
+}
+
+main .container .quotes-container h2,
+main .container .quotes-container h3 {
+  font-weight: 500;
+}
+
+main .container .quotes-container p {
+  display: inline;
+}
+
+main .container .quotes-container .correct {
+  color: green;
+}
+
+main .container .quotes-container .incorrect {
+  color: red;
+}
+
+main .container .quotes-container textarea {
+  height: 70px;
+  resize: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+main .container .quotes-container textarea:focus {
+  border: 2.5px solid #f0c38c;
+}
+
+main .container .quotes-container .on-focus:focus {
+  border: 2.5px solid #2d4ca7;
+}
+
+main .container .quotes-container button {
+  width: 200px;
+  padding: 1rem 0;
+  margin: 0.3rem auto;
+  background: #eeb876;
+  border-radius: 10px;
+  color: #e9f1f1;
+  font-size: 20px;
+}
+
+main .container .quotes-container .start-timer-bg-color {
+  background: #2d4ca7;
+}
+
+main .container .result {
+  margin-top: 1rem;
+  width: 550px;
+  height: 120px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: transform 0.5s linear;
+  background: #656667;
+  border: 1px solid chocolate;
+  border-radius: 2px;
+}
+
+main .container .result .words,
+main .container .result .letters,
+main .container .result .errors {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f0c38c;
+}
+
+main .container .result .errors {
+  width: 100px;
+}
+
+main .container .result .headers-color {
+  color: #2d4ca7;
+}
+
+main .container .note {
+  width: 550px;
+  color: #f0c38c;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+main .container .result-bg-color {
+  background: #868686;
+}
+
+main .container .result-border-color {
+  border-color: #2d4ca7;
+}
+
+main .container .note-color {
+  color: #2d4ca7;
+}
+
+main .container .social {
+  position: absolute;
+  bottom: 1rem;
+  color: #f0c38c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main .container .social i,
+main .container .social a {
+  margin: 0 0.3rem;
+}
+
+main .container .social a {
+  color: #f0c38c;
+}
+
+main .container .social .github-color {
+  color: #2d4ca7;
+}
+
+main .container-background {
+  background: #c7c4c4;
+}
+/*# sourceMappingURL=style.css.map */
