@@ -40,6 +40,7 @@ main .container {
   justify-content: center;
   align-items: center;
   color: aliceblue;
+  padding: 0 1rem;
 }
 
 main .container .mode {
