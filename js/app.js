@@ -3,7 +3,7 @@ function main() {
   const startTimerBtn = document.querySelector(
     '.quotes-container .start-timer-btn'
   );
-
+  const main = document.querySelector('main');
   const resultDiv = document.querySelector('.result');
   const wordsValue = document.querySelector('.result .words-value');
   const lettersValue = document.querySelector('.result .letters-value');
@@ -166,7 +166,7 @@ function main() {
 
     modeDiv.classList.toggle('background');
     changeModeBtn.classList.toggle('change');
-    container.classList.toggle('container-background');
+    main.classList.toggle('main-background');
     header.classList.toggle('header-color');
     timerSpans.forEach((span) => {
       span.classList.toggle('timerSpan-color');

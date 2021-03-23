@@ -29,10 +29,10 @@ li {
 main {
   height: 100vh;
   width: 100%;
+  background: #2a2b2c;
 }
 
 main .container {
-  background: #2a2b2c;
   width: 100%;
   height: 100%;
   display: flex;
@@ -254,7 +254,7 @@ main .container .social .github-color {
   color: #2d4ca7;
 }
 
-main .container-background {
+.main-background {
   background: #c7c4c4;
 }
 /*# sourceMappingURL=style.css.map */
